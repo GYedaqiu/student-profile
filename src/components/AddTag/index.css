@@ -1,0 +1,36 @@
+.tag-bar {
+    width: 100%;
+}
+
+.tag-form {
+    width: 100%;
+}
+
+.tag-form > input {
+    width: 40%;
+    font-size: 1vw;
+    outline: none;
+    border: 0;
+    border-bottom: 1px solid var(--gray-200);
+    margin-bottom: 3%;
+}
+
+.tags {
+    position:relative;
+    left: 1.5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.tag {
+    text-indent: 0;
+    text-align: center;
+    background-color: var(--gray-100);
+    width: 3vw;
+    margin: 1%;
+    justify-content: center;
+    border-radius: 15%;
+    padding: 2% 2%;
+}
+
